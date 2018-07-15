@@ -41,6 +41,18 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
     <EditText
         android:id="@+id/adresseReclammation"
         android:layout_width="match_parent"
