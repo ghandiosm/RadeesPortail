@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.mghandi.radeesportail">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_radees_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_radees_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ListFacturesActivity" />
+        <activity android:name=".ListReclamationsActivity" />
+        <activity android:name=".ListDemandesActivity" />
+        <activity android:name=".AddReclamationActivity" />
+        <activity android:name=".ListConsommationsActivity" />
+        <activity android:name=".ConsommationsGraphActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".RegisterVerificationActivity" />
+        <activity android:name=".ListContractsActivity" />
+        <activity android:name=".ListResiliationsActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AddContractActivity" />
+        <activity android:name=".SimulationActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

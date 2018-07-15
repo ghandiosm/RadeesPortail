@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_charge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddContractActivity">
+
+    <EditText
+        android:id="@+id/numContract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_icon"
+        android:inputType="phone"
+        android:drawableLeft="@mipmap/ic_assignment_white_24dp"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:hint="Numéro Contrat"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Gérance:"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/contratGerances"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:layout_margin="10dp"
+        />
+
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Localité:"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/contratLocalites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/addContactBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:textColor="@color/logoRed"
+        android:background="@drawable/bg_action_button"
+        android:layout_margin="13dp"
+        />
+
+</LinearLayout>
+
